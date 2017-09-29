@@ -55,3 +55,22 @@ GIT DIFF
 
 mostra as mudanças que nós fizemos
 
+VOLTAR mudanças
+
+git checkout nome_arquivo
+volta o arquivo para antes das mudanças que realizamos no arquivo.
+
+colocar no git online
+
+git remote add origin https://github.com/lucasbsa/Java-Script.git
+
+PUSH
+
+git push -u origin master
+
+colocar no remoto
+
+
+COLOCANDO MUDANÇAS NO GIT remoto
+
+
