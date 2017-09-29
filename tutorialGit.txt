@@ -1,0 +1,30 @@
+Configurar o GIT
+
+1) git config --global user.name "Lucas Barreto"
+2) ''                ' user.email ""
+3) '                 ' suplime.editor emacs -- editor principal do git
+4) git config mostra a configuração do GIT- Toda
+5) git config --list aparece as configurações do GIT
+
+INICIALIZAR O GIT EM UMA PASTA PARA ELA SER REPOSITÓRIO
+
+1) git init
+STATUS DE ARQUIVOS
+Untracked
+ arquivo acabou de ser adicina mas o git ainda nao conhece o 
+ arquivo no REPOSITÓRIO.
+
+Unmodified
+Não foi modificado, existe mas nao teve nenhuma modificação
+Modified
+arquivo modificado
+Staged
+vai ser criada a versão, momento em que o arquivo fica separado para 
+mais tarde ele ser levado, já criou a versão
+
+STATUS
+
+git status 
+mostra os arquivos da pasta e seu status
+
+git add nome_arquivo teste para ber se muda o status
