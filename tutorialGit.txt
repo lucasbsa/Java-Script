@@ -27,4 +27,31 @@ STATUS
 git status 
 mostra os arquivos da pasta e seu status
 
-git add nome_arquivo teste para ber se muda o status
+git add nome_arquivo adiciona o arquivo ao git, assim o git vai saber da 
+                        existencia do arquivo
+
+git --commit -m " comentario do que mudou no arquivo"     
+
+LOGS / HISTORICO
+
+git log 
+
+git log --decorate
+
+git log shortlog
+mostra os autores de commits 
+
+git shortlog -sn
+quantidade de commts e pessoas que comitara
+
+git log --graph
+mostra com graficos o que esta ocorrendo em branch e master
+
+git log :
+
+git show numero_commit_para_ver_oque_foi_comitado
+
+GIT DIFF
+
+mostra as mudanças que nós fizemos
+
